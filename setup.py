@@ -3,6 +3,12 @@ import setuptools
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
+tests_require = [
+    'pytest>=6.0.0',
+    'pytest-django>=4.1.0',
+    'factory-boy>=3.0.0',
+]
+
 setuptools.setup(
       name='django_serverside_datatable',
       version='2.1.0',
@@ -13,7 +19,7 @@ setuptools.setup(
       license="MIT",
       author="Umesh Krishna",
       author_email='umesh_krishna@outlook.com',
-      install_requires=['Django>=1.8'],
+      install_requires=['Django>=1.11'],
       packages=setuptools.find_packages(),
       classifiers=[
         "Programming Language :: Python :: 3",
@@ -21,4 +27,6 @@ setuptools.setup(
         "Operating System :: OS Independent",
       ],
       python_requires='>=3.6',
+      tests_require=tests_require,
+      test_suite="tests",
 )

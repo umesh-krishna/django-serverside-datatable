@@ -1,5 +1,13 @@
 # Django Serverside Datatable
+[![build][build-image]][build-url]
+[![pypi][pypi-image]][pypi-url]
 [![Downloads](https://pepy.tech/badge/django-serverside-datatable)](https://pepy.tech/project/django-serverside-datatable)
+
+
+[build-image]: https://github.com/umesh-krishna/django-serverside-datatable/workflows/Tests/badge.svg
+[build-url]: https://github.com/umesh-krishna/django-serverside-datatable/actions
+[pypi-image]: https://img.shields.io/pypi/v/django-serverside-datatable.svg?style=flat
+[pypi-url]: https://pypi.org/project/django-serverside-datatable/
 
 This is a simple package that let you use Server-side Datatable in your Django Project
 

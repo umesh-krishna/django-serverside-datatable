@@ -17,7 +17,6 @@ class DataTablesServer(object):
         self.cardinality_filtered = 0
         # total in the table unfiltered
         self.cardinality = 0
-        self.user = request.user
         self.qs = qs
         self.run_queries()
 
